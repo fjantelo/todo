@@ -1,0 +1,14 @@
+###
+GET http://localhost:4000/api/v1/todos
+
+###
+POST http://localhost:4000/api/v1/todos
+Content-Type: application/json
+
+{
+  "title": "breakfast",
+  "description": "get breakfast"
+}
+
+###
+GET http://localhost:4000/api/v1/todos/1
